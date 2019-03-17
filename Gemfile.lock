@@ -1,0 +1,29 @@
+GIT
+  remote: git://github.com/elasticsearch/elasticsearch-ruby.git
+  revision: 468e80b49977abe62c3ad3ae2c6805c1edc17e3c
+  specs:
+    elasticsearch (7.0.0.pre)
+      elasticsearch-api (= 7.0.0.pre)
+      elasticsearch-transport (= 7.0.0.pre)
+    elasticsearch-api (7.0.0.pre)
+      multi_json
+    elasticsearch-transport (7.0.0.pre)
+      faraday
+      multi_json
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    faraday (0.15.4)
+      multipart-post (>= 1.2, < 3)
+    multi_json (1.13.1)
+    multipart-post (2.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  elasticsearch!
+
+BUNDLED WITH
+   2.0.1
