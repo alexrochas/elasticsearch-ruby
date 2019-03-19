@@ -1,0 +1,8 @@
+version: '3.4'
+services:
+  wiremock:
+    image: rodolpheche/wiremock
+    ports:
+      - 8100:8080
+    volumes:
+      - ../wiremock:/home/wiremock
